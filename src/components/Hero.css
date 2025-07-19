@@ -1,0 +1,19 @@
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.hero-img img {
+  width: 150px;
+  border-radius: 50%;
+}
+.hero-info {
+  flex: 1;
+  margin: 0 2rem;
+}
+.hero-socials a {
+  font-size: 1.5rem;
+  color: green;
+  margin: 0 0.5rem;
+}

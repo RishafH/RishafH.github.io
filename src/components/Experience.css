@@ -1,0 +1,9 @@
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.timeline-item {
+  border-left: 4px solid green;
+  padding-left: 1rem;
+}

@@ -1,0 +1,13 @@
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.about-grid ul {
+  list-style: none;
+  padding: 0;
+}
+.about-grid li {
+  margin-bottom: 0.5rem;
+}

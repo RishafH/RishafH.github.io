@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: transparent;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: color 0.2s;
+}
+
+.nav a:hover {
+  color: green;
+}
+
+.theme-toggle {
+  background: none;
+  border: none;
+  color: green;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
