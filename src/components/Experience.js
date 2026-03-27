@@ -7,11 +7,14 @@ export default function Experience() {
       <h2>Experience</h2>
       <div className="timeline">
         <div className="timeline-item neumorphic">
-          <h3>Software Engineer Intern - Shield Technologies</h3>
-          <p>Jan 2025 - Jun 2025</p>
-          <p>Worked on responsive UI using Flutter and improved accessibility.</p>
+          <h3>Intern Software Engineer - Shield Technologies (PVT) Ltd</h3>
+          <p>2025</p>
+          <ul>
+            <li>Developed and optimized cross-platform mobile applications using Flutter and Firebase.</li>
+            <li>Implemented Firebase Authentication and database features for secure and efficient user data management.</li>
+            <li>Designed and built responsive, user-friendly UI/UX with smooth performance across devices and screen sizes.</li>
+          </ul>
         </div>
-        
       </div>
     </section>
   );

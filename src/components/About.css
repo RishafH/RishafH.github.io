@@ -4,10 +4,31 @@
   gap: 2rem;
   margin-top: 2rem;
 }
+
+.about-grid h3 {
+  margin-top: 0.2rem;
+  color: var(--accent);
+}
+
 .about-grid ul {
   list-style: none;
   padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 0.6rem;
 }
+
 .about-grid li {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0;
+  background: rgba(16, 138, 68, 0.08);
+  border: 1px solid rgba(16, 138, 68, 0.13);
+  border-radius: 10px;
+  padding: 0.45rem 0.65rem;
+  font-size: 0.95rem;
+}
+
+body.dark-mode .about-grid li {
+  background: rgba(44, 107, 66, 0.2);
+  border-color: rgba(102, 181, 126, 0.25);
 }

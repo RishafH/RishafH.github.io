@@ -2,10 +2,7 @@
   margin-top: 2rem;
   padding: 2rem;
   text-align: center;
-  border-radius: 10px;
-  background: inherit;
-  box-shadow: 6px 6px 12px rgba(0, 128, 0, 0.2),
-              -6px -6px 12px rgba(0, 255, 0, 0.05);
+  border-radius: 18px;
 }
 
 .contact-item {
@@ -18,19 +15,26 @@
 }
 
 .contact-item .icon {
-  color: green;
+  color: var(--accent);
   font-size: 1.5rem;
 }
 
 .contact-socials a {
   margin: 0 0.75rem;
-  font-size: 1.8rem;
-  color: green;
-  transition: transform 0.3s ease;
+  width: 46px;
+  height: 46px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 1.3rem;
+  color: #fff;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  transition: transform 0.25s ease;
 }
 
 .contact-socials a:hover {
-  transform: scale(1.2);
+  transform: translateY(-3px) scale(1.03);
 }
 
 @media (max-width: 600px) {

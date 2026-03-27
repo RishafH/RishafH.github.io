@@ -1,6 +1,6 @@
 import React from "react";
 import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
-import profile from "../profile.JPG"; // Ensure you have a profile image in this path
+import profile from "../profile.png"; // Ensure you have a profile image in this path
 import "./Hero.css";
 
 export default function Hero() {
@@ -18,7 +18,7 @@ export default function Hero() {
         <div className="hero-socials">
           <a href="https://github.com/RishafH"><FaGithub /></a>
           <a href="https://www.linkedin.com/in/rishaf-mohammed-363082277"><FaLinkedin /></a>
-          <a href="https://www.facebook.com/RishafMass"><FaFacebook /></a>
+          <a href="https://www.facebook.com/risaf.mass.2025/"><FaFacebook /></a>
         </div>
       </div>
     </section>

@@ -1,0 +1,39 @@
+.qualifications-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.qualification-card h3 {
+  margin-top: 0;
+  color: green;
+}
+
+.qualification-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.qualification-item h4 {
+  margin: 0;
+}
+
+.qualification-item .meta {
+  margin: 0.3rem 0;
+  font-weight: 600;
+  color: #2f7a2f;
+}
+
+body.dark-mode .qualification-item .meta {
+  color: #81d481;
+}
+
+.qualification-list.bullets {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.qualification-list.bullets li {
+  margin-bottom: 0.75rem;
+}
