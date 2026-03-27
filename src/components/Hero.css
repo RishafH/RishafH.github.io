@@ -56,7 +56,43 @@
 }
 
 @media (max-width: 768px) {
+  .hero-content {
+    gap: 1.25rem;
+  }
+
+  .hero-img img {
+    width: 165px;
+    height: 165px;
+    margin: 0 auto;
+  }
+
   .hero-info {
     margin: 0;
+  }
+
+  .hero-info p {
+    max-width: 100%;
+  }
+
+  .hero-socials {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+  }
+
+  .hero-socials a {
+    margin: 0;
+  }
+}
+
+@media (max-width: 420px) {
+  .hero-info h1 {
+    font-size: 1.7rem;
+  }
+
+  .hero-info h2 {
+    font-size: 1rem;
   }
 }

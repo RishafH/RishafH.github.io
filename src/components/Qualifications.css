@@ -7,7 +7,7 @@
 
 .qualification-card h3 {
   margin-top: 0;
-  color: green;
+  color: var(--accent);
 }
 
 .qualification-list {
@@ -36,4 +36,16 @@ body.dark-mode .qualification-item .meta {
 
 .qualification-list.bullets li {
   margin-bottom: 0.75rem;
+}
+
+.qualification-item p,
+.qualification-list li {
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 700px) {
+  .qualifications-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
 }

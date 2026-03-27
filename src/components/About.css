@@ -32,3 +32,19 @@ body.dark-mode .about-grid li {
   background: rgba(44, 107, 66, 0.2);
   border-color: rgba(102, 181, 126, 0.25);
 }
+
+@media (max-width: 700px) {
+  .about-grid {
+    gap: 1.1rem;
+  }
+
+  .about-grid ul {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 420px) {
+  .about-grid ul {
+    grid-template-columns: 1fr;
+  }
+}

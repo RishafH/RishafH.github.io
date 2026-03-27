@@ -9,9 +9,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   font-size: 1.2rem;
   gap: 0.5rem;
   margin-bottom: 1rem;
+}
+
+.contact-item a {
+  overflow-wrap: anywhere;
 }
 
 .contact-item .icon {
@@ -42,7 +47,12 @@
     padding: 1rem;
   }
 
+  .contact-item {
+    font-size: 1rem;
+  }
+
   .contact-socials a {
-    font-size: 1.5rem;
+    width: 42px;
+    height: 42px;
   }
 }
