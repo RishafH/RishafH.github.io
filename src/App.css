@@ -20,22 +20,29 @@ body {
   margin: 0;
   font-family: "Manrope", sans-serif;
   color: var(--text);
-  background:
-    radial-gradient(circle at 8% 8%, rgba(14, 165, 162, 0.18), transparent 28%),
-    radial-gradient(circle at 88% 4%, rgba(34, 197, 94, 0.2), transparent 30%),
-    linear-gradient(180deg, var(--bg) 0%, var(--bg-soft) 100%);
-  transition: background 0.35s ease, color 0.35s ease;
+  background: transparent;
+  transition: color 0.35s ease;
   overflow-x: hidden;
 }
 
 body.dark-mode {
   --bg: #0f1712;
   --bg-soft: #101d16;
-  --text: #e2f3e6;
-  --muted: #9ec7a9;
+  --text: #f0fdf4;
+  --muted: #b8d9bb;
   --line: rgba(88, 163, 111, 0.25);
   --card: rgba(17, 31, 23, 0.72);
   --card-shadow: 0 24px 55px rgba(0, 0, 0, 0.45);
+  --accent: #0ea5a2;
+  --accent-2: #22c55e;
+}
+
+html {
+  background: #0f1712;
+}
+
+html.light-mode {
+  background: #f8faf8;
 }
 
 a {
@@ -46,6 +53,12 @@ a {
 img {
   max-width: 100%;
   display: block;
+}
+
+.app-content {
+  position: relative;
+  z-index: 1;
+  width: 100%;
 }
 
 section {
